@@ -607,7 +607,7 @@
 
   
   .__textside p:nth-child(1) {
-    padding-top: 46px;
+    padding-top: 6px;
   }
 
   .__eventmid {
@@ -656,7 +656,7 @@
   }
 
   .__textside p:nth-child(1) {
-    padding-top: 40px;
+    padding-top: 6px;
   }
 
   .__downloadbg {
@@ -733,6 +733,10 @@
 
   .__aboutp {
     padding: 15px;
+  }
+
+  .__imgevent {
+    height: 59vh;
   }
 
 
