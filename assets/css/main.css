@@ -275,123 +275,6 @@ a:focus, a:hover {
 }
 
 
-/*=================================================================
-  Dashboard Css
-==================================================================*/
-
-
-/*adminsection*/
-.leftbar{
-  position: fixed;
-  /*padding-top: 42px;*/
-  padding-top: 6%;
-  left: 0%;
-  /*top: 0%;*/
-  background-color: #ffffff;
-  /*border-right: 1px solid #c0bebe33;*/
-  border-right: 1px solid #e3e3e3;
-  width: 256px;
-  height: 100%;
-  transition: all .6s ease;
-  overflow-y: scroll;
-  overflow-x: hidden;
-}
-.leftbart{
-  position: fixed;
-  /*padding-top: 42px;*/
-  padding-top: 1%;
-  left: 0%;
-  /*top: 0%;*/
-  background-color: #ffffff;
-  /*border-right: 1px solid #c0bebe33;*/
-  border-right: 1px solid #e3e3e3;
-  width: 256px;
-  height: 100%;
-  transition: all .6s ease;
-  overflow-y: scroll;
-  overflow-x: hidden;
-}
-
-.leftbar::-webkit-scrollbar {
-    width: 0px;
-}
-.leftbart::-webkit-scrollbar {
-    width: 0px;
-}
-.butt_section{
-  padding: 35px;
-}
-.leftbar p {
-  /*font-family: Raleway-Medium;*/
-  font-size: 14px;
-  font-weight: 500;
-  letter-spacing: 0.4px;
-  color: #595959;
-  background-color: white;
-  padding: 8px 16px;
-  margin-bottom: 0;
-  cursor: pointer;
-  /*text-align: center;*/
-  line-height: 26px;
-}
-
-.__dashnotif {
-    position: absolute;
-    /* margin-top: 18px; */
-    color: #ea4335;
-    font-size: 8px;
-    /* margin-left: -11px; */
-  }
-
-  .deleteBox .delete {
-  cursor: pointer;
-  color: #ffffff;
-  margin-top:10px;
-  float: right;
-}
-
-.leftbart p {
-  /*font-family: Raleway-Medium;*/
-  font-size: 14px;
-  font-weight: 500;
-  letter-spacing: 0.4px;
-  color: #595959;
-  background-color: white;
-  padding: 12px 16px;
- /* margin-bottom: 10%;*/
-  cursor: pointer;
-  /*text-align: center;*/
-  line-height: 23px;
-}
-.dashboard_name {
-    padding: 2px;
-    margin-left: 16%;
-    margin-bottom: 10%;
-}
-.leftbar i {
-    float: left;
-    padding: 4px;
-}
-.leftbart i {
-    float: left;
-    padding: 4px;
-}
-.activedashboard{
-  /*background-color: #f9f9f9 !important;*/
-  /*font-family: Raleway-Bold !important;*/
-  font-size: 14px !important;
-  font-weight: 600 !important;
-  letter-spacing: 0.4px;
-    /*color: #595959 !important;*/
-    border-left: 4px solid #298FCE !important;
-    /*border: 1px solid #f0842d;*/
-    color: #298FCE !important;
-    /*width: 197px;*/
-    width: 100%;
-}
-
-
-/*end*/
 
 
 
@@ -464,7 +347,7 @@ font-size: 18px;
     font-size: 12px;
 }
 .__navdown{
-  background: #f7f7f7;
+  background: #ffffff;
   margin-bottom: 0;
   padding: 20px 0;
   border-radius: 0;
@@ -683,6 +566,17 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
     z-index: 20;
 }
 
+.__imgdivab {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100vh;
+    opacity: 1;
+    visibility: inherit;
+    z-index: 20;
+}
+
 .carousel-inner {
   border-radius: 0;
 }
@@ -888,9 +782,17 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 .__imgevent{
   background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;
-    width: 100%;
-    height: 30vh;
+    background-position: center;
+    /*width: 100%;*/
+    height: 72vh;
+}
+
+.__calendal{
+  background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /*width: 100%;*/
+    height: 203vh;
 }
 
 .__eventexam{
@@ -938,6 +840,33 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
   margin-top:92px;
 }*/
 
+.__schnam{
+  font-size: 45px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 5%;
+}
+.__schnam1{
+  font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 5%;
+}
+
+
+
+.table>thead>tr>th {
+    border: 1px solid #ddd;
+}
+
+.table>tbody>tr>td {
+    border: 1px solid #ddd;
+}
+
+.table {
+    border: 1px solid #ddd;
+}
+
 
 .__aboubg{
   background-repeat: no-repeat !important;
@@ -962,6 +891,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
     padding: 40px;
     border-radius: 6px;
     margin-top:5%;
+    text-align:justify;
 }
 
 .__aboutp p{
@@ -1362,6 +1292,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 }
 
 /*partner slider end*/
+
 
 
 .__fosocai {
