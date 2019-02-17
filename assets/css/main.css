@@ -130,6 +130,7 @@ a:focus, a:hover {
 .navbar-toggle {
   /*border: 2px solid #FFFFFF;*/
   color: #ffffff;
+  background: #433e59;
 }
 
 .navbar-toggle .icon-bar {
@@ -1379,6 +1380,70 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 
 
 /*end
+
+
+
+
+
+
+
+
+/*testing*/
+
+#quote-carousel {
+    padding: 0 10px 30px 10px;
+    margin-top: 60px;
+}
+#quote-carousel .carousel-control {
+    background: none;
+    color: #CACACA;
+    font-size: 2.3em;
+    text-shadow: none;
+    margin-top: 30px;
+}
+#quote-carousel .carousel-indicators {
+    position: relative;
+    right: 50%;
+    top: auto;
+    bottom: 0px;
+    /*margin-top: 20px;*/
+    /*margin-right: -19px;*/
+}
+#quote-carousel .carousel-indicators li {
+    width: 230px;
+    height: 230px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    /*border-radius: 50%;*/
+    opacity: 0.4;
+    overflow: hidden;
+    transition: all .4s ease-in;
+    vertical-align: middle;
+    margin-top: -166px !important;
+    margin:6px 6px 0 6px;
+}
+#quote-carousel .carousel-indicators .active {
+    width: 200px;
+    height: 200px;
+    opacity: 1;
+    transition: all .2s;
+    margin-top:10% !important;
+}
+.item blockquote {
+    border-left: none;
+    margin: 0;
+}
+.item blockquote p:before {
+    content: "\f10d";
+    font-family: 'Fontawesome';
+    float: left;
+    margin-right: 10px;
+}
+
+.__right{right: -103px !important;}
+
+
 
 
 
