@@ -1116,7 +1116,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
   box-shadow: 0 0 1px 0 rgba(188, 188, 188, 0.5);
   cursor: pointer;
   transition: all 0.4s ease-in;
-  height: 380px;
+  /*height: 380px;*/
   margin-top: 20px;
 }
 
